@@ -1,0 +1,26 @@
+{
+  "name": "steamgroup-shortener",
+  "version": "0.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^10.12.12",
+    "ava": "1.0.0-beta.8",
+    "eslint": "^5.10.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "prettier": "^1.15.3",
+    "tslint": "^5.11.0",
+    "tslint-plugin-prettier": "^2.0.1"
+  },
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "ava --verbose",
+    "format": "./node_modules/.bin/prettier --write **/*",
+    "formatjs": "./node_modules/.bin/prettier --write **/*.js",
+    "formatts": "./node_modules/.bin/prettier --write **/*.ts",
+    "compile": "tsc && npm run formatjs"
+  },
+  "author": "MarvinJWendt",
+  "license": "MIT"
+}
