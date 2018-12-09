@@ -21,6 +21,10 @@
     "formatts": "./node_modules/.bin/prettier --write **/*.ts",
     "compile": "tsc && npm run formatjs"
   },
+  "repository": {
+    "type": "GIT",
+    "url": "https://github.com/SteamDotGroup/javascript-steamgroup-shortener"
+  },
   "author": "MarvinJWendt",
   "license": "MIT"
 }
