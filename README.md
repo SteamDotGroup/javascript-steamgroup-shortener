@@ -1,1 +1,3 @@
-# javascript-steamgroup-shortener
+# steamgroup-shortener
+
+> Steam group URL shortener
