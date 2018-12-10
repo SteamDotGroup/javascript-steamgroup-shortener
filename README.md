@@ -1,6 +1,6 @@
 # steamgroup-shortener
 
-<!-- badge following -->
+<!--  badge following  -->
 
 > Steam group URL shortener
 
