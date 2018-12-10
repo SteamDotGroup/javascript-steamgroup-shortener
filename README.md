@@ -1,6 +1,6 @@
 # steamgroup-shortener
 
-<!--  badge following  -->
+[![Build Status](https://travis-ci.com/SteamDotGroup/javascript-steamgroup-shortener.svg?branch=master)](https://travis-ci.com/SteamDotGroup/javascript-steamgroup-shortener)
 
 > Steam group URL shortener
 
