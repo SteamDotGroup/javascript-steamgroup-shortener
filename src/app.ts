@@ -26,3 +26,7 @@ export function fromText(text: string) {
   // Return and remove last character (whitespace)
   return ret.slice(0, -1)
 }
+
+export function textContainsSteamgroup(text: string) {
+  return text.includes('steamcommunity.com/groups/')
+}

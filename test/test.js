@@ -40,3 +40,15 @@ test('Shorten from unorganized text with https', t => {
     'You     can find our         Steam   group here: https://steam.group/SteamDotGroup    have fun    !'
   )
 })
+
+test('Text contains steamgroup with https', t => {
+  t.is(shortenSteamGroupURL.textContainsSteamgroup('You can find our Steam group here: https://steamcommunity.com/groups/SteamDotGroup have fun!'), true)
+})
+
+test('Text contains steamgroup with htpp', t => {
+  t.is(shortenSteamGroupURL.textContainsSteamgroup('You can find our Steam group here: http://steamcommunity.com/groups/SteamDotGroup have fun!'), true)
+})
+
+test('Text does not contain steamgroup', t => {
+  t.is(shortenSteamGroupURL.textContainsSteamgroup('You can find our Steam group here: NoSteamGroupHere! have fun!'), false)
+})
